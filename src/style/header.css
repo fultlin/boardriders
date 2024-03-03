@@ -1,0 +1,192 @@
+#header--1 {
+  background-color: black;
+}
+
+.header-top {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  vertical-align: center;
+}
+
+.header-left--1 {
+  display: flex;
+  align-items: center;
+}
+
+.header-left span {
+  margin-left: 15px;
+}
+
+select {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: "Grtsk";
+  margin-left: 5px;
+  max-width: 100px;
+}
+
+option {
+  background-color: black;
+  border: none;
+}
+
+.header-left--2 {
+  display: flex;
+  padding: 0;
+  margin-left: 39px;
+  gap: 26px;
+}
+
+.header-left--2 a {
+  color: white;
+}
+
+.header-left--2 li:hover {
+  border-bottom: 1px solid white;
+}
+
+.header-right {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;
+}
+
+.header-right li {
+  position: relative;
+}
+
+.header-right li:nth-child(1)::before {
+  content: url("../img/track.svg");
+  fill: white;
+  position: absolute;
+  bottom: -8px;
+  left: -35px;
+}
+
+.header-right li:nth-child(2)::before {
+  content: url("../img/cardsvg.svg");
+  fill: white;
+  position: absolute;
+  bottom: -5px;
+  left: -35px;
+}
+
+.header-right li:nth-child(3)::before {
+  content: url("../img/backup.svg");
+  fill: white;
+  position: absolute;
+  bottom: -5px;
+  left: -35px;
+}
+
+/*  */
+
+#header--2 {
+  color: black;
+}
+
+.gender {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.gender a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.gender a:hover {
+  border-bottom: 3px solid black;
+}
+
+.header-bottom-top {
+  display: flex;
+  flex-direction: row;
+  padding: 22px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  font-size: 8px;
+  align-items: end;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.menu li {
+  position: relative;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.menu li:hover {
+  border-bottom: 1px solid black;
+}
+
+.menu li:nth-child(1)::before {
+  content: url("../img/profile.svg");
+  position: absolute;
+  left: 1px;
+  bottom: 10px;
+}
+
+.menu li:nth-child(2)::before {
+  content: url("../img/favourites.svg");
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.menu li:nth-child(3)::before {
+  content: url("../img/basket.svg");
+  position: absolute;
+  left: 3px;
+  bottom: 10px;
+}
+
+.menu li:nth-child(4)::before {
+  content: url("../img/search.svg");
+  position: absolute;
+
+  bottom: 10px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 0;
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+.list-items li:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.list-items li:last-child {
+  color: rgb(235, 87, 87);
+}

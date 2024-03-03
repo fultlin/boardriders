@@ -1,0 +1,169 @@
+.big-slide {
+  min-width: 1360px;
+  height: 482px;
+  background-image: url("../img/bigslide.png");
+  background-color: red;
+}
+
+.big-slide-item {
+  padding: 15px 46px 10px 30px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 700;
+  max-width: max-content;
+  top: 316px;
+}
+
+.slider {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  gap: 25px;
+  left: 275px;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.big-slider-button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+}
+
+.big-slider-button--prev {
+  left: 0;
+  top: 50%;
+}
+
+.big-slider-button--next {
+  right: 0;
+  top: 50%;
+}
+
+.collabs {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 62px 0;
+}
+
+.sale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.sale--item {
+  width: 667px;
+  height: 340px;
+  text-align: center;
+}
+
+.sale--item span {
+  display: block;
+  background-color: black;
+  color: white;
+  margin-top: -3px;
+  padding: 22px;
+  font-size: 21px;
+}
+
+.new-item {
+  position: relative;
+  max-width: max-content;
+}
+
+.favourites {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.favourites img {
+  z-index: 2;
+}
+
+.item-description {
+  margin-top: 60px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.category {
+  font-size: 14px;
+  color: grey;
+  display: block;
+  margin: 5px 0 10px;
+}
+
+.cost {
+  font-size: 18px;
+}
+
+.new-items {
+  position: relative;
+}
+
+.new-items h2 {
+  margin: 0 auto;
+  max-width: max-content;
+  margin-bottom: 48px;
+}
+
+.new-slider-button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+}
+
+.new-slider-button--prev {
+  top: 25%;
+  left: -100px;
+}
+
+.new-slider-button--next {
+  top: 25%;
+  right: -100px;
+}
+
+.new-items-slider {
+  /* 346 */
+  overflow: hidden;
+}
+
+.new-items-slider--items {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 75px;
+}
+
+.seemore {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  max-width: max-content;
+  padding: 10px 90px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
